@@ -1,0 +1,18 @@
+#defaultContent{
+    width:70%;
+    background-color: bisque;
+     min-height: 1000px; /* placeholder */
+     display: flex;
+     flex-direction: column;
+     /* text-align: center; */
+}
+
+.indent {
+    padding-left: 2%;
+}
+
+@media(min-width: 600px) {
+    #defaultContent{
+        width:90%;
+    }
+  }

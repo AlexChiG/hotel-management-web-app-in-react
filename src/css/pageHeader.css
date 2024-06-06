@@ -1,0 +1,65 @@
+#pageHeader {
+    width: 100%;
+    background-color: #ECB176;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pageHeader button {
+    flex:1;
+    background-color: #FED8B1 ;
+    border-color: #ECB176;
+    border-radius: 30px;
+    box-shadow: 1px 1px 0px #000;
+    padding: 1%;
+    margin: 1%;
+    height: fit-content;
+    max-width: fit-content;
+}
+
+#pageHeader button:active {
+    background-color: #A67B5B;
+    box-shadow: -1px -1px -1px #000;
+    color: #FED8B1;
+}
+
+#pageHeader div {
+    flex:4;
+    justify-content: end;
+}
+
+#accountName {
+padding-right: 10px;
+}
+
+#pageHeader #icon{
+    border: none;
+    box-shadow: none;
+    max-width: fit-content;
+}
+img {
+    padding:2px;
+}
+
+#login {
+    font-size: larger;
+}
+@media (min-width: 600px) {
+    img {
+        padding: 0;
+    }
+    #siteName {
+        font-size: 32px;
+    }
+  }
+
+
+  @media(max-width: 599px) {
+    #accountName{
+        font-size: 12px;
+    }
+    #login#login {
+        padding: 10px;
+    }
+  }

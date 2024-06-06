@@ -1,0 +1,31 @@
+#PageFooter {
+  background-color: #333;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#icon {
+  justify-content: center;
+  width: 30%;
+}
+
+#copyright {
+    text-align: end;
+  justify-content: end;
+  width: 66%;
+  align-items: center;
+}
+
+#author#author {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#PageFooter > div {
+  color: #999;
+  /* width: 48%; */
+  flex-wrap: wrap;
+  margin: 1%;
+}

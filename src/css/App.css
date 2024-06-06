@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #A67B5B;
+    text-shadow: 1px 1px 1px #000;
+}
+#root {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+}
+
+div {
+    display: flex;
+}
+
+#page {
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    
+}
+
+#main{
+    /* width: 80%; */
+}
+
+footer{
+    width: 100%;
+}
